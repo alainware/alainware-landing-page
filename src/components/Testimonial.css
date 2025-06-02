@@ -1,0 +1,31 @@
+.testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.stars {
+    margin-bottom: 1rem;
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+
+.star {
+    display: inline-block;
+}
+
+.star.filled {
+    color: #ffc107;
+}
+
+.testimonial-card .comment {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.testimonial-card .name {
+    font-weight: 600;
+    color: var(--primary-dark);
+}

@@ -1,0 +1,30 @@
+.service-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.service-card h3 {
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.service-card p {
+    color: var(--text-color);
+    line-height: 1.6;
+}
